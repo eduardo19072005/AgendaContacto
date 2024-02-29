@@ -89,7 +89,10 @@ public class Contacto {
                 && Objects.equals(empresa, other.empresa) && Objects.equals(nombre, other.nombre)
                 && Objects.equals(telefono, other.telefono);
     }
-
+	/**
+	*Este metodo genera una cadena con la informacion de un determinado contacto
+	*@return este metodo devuelve la informacion de un contacto en especifico
+	*/
     @Override
     public String toString() {
         return "Contacto [nombre=" + nombre + ", apellidos=" + apellidos + ", telefono=" + telefono + ", email=" + email
